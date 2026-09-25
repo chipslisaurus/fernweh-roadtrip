@@ -1,3 +1,11 @@
+# Fernweh 1.2 · Roadtrip 100
+
+Version 1.2 adds four towns expanded into cities, local streets, dual carriageway motorway sections and two grade-separated cloverleaf interchanges. Press **M** for the 100 km road atlas and its 35-place directory; select a place to set a shared navigation destination. Scroll to zoom and drag to pan. **Z / X** toggles left / right indicators.
+
+New contextual sounds cover road tires, gravel, leaves, birds, insects, distant city traffic, refueling, shop ventilation, entry bell, indicator relay, bridge joints and navigation. Tire reverb changes in tunnels and exterior sounds are quieter in the cabin.
+
+All players must use 1.2; older 0.2 rooms are incompatible. Most new city buildings are exterior scenery. Traffic stays on the main route; players can drive the connected side streets. This remains an early procedural prototype.
+
 # Fernweh · Landstraße 100
 
 An early Windows roadtrip prototype made with Unity. Drive a procedural 100-kilometre route in an old pickup, alone or with two friends, stopping at fuel stations, rest areas and villages.

@@ -1,8 +1,20 @@
-# Fernweh · Landstraße 100
+# Fernweh 1.2 · Roadtrip 100
 
-Ein früher Roadtrip-Prototyp für Windows, gebaut mit Unity. Eine prozedurale Strecke von 100 Kilometern, ein alter Pickup und bis zu drei Reisende: allein fahren oder gemeinsam an Tankstellen, Rastplätzen und Dörfern anhalten.
+Ein früher Roadtrip-Prototyp für Windows, gebaut mit Unity. Eine prozedurale Strecke von 100 Kilometern, ein alter Pickup und bis zu drei Reisende: allein fahren oder gemeinsam an Tankstellen, Rastplätzen, Dörfern und Städten anhalten.
 
 [English](README.en.md) · [Asset-Credits](CREDITS.md)
+
+## Neu in 1.2
+
+- Vier Städte: Auenried, Waldried, Steinrode und Buchenwinkel, mit Stadtstraßen, Rathausplatz, mehrstöckigen Fassaden, Parkplätzen und Fußgängern.
+- Landstraßen, zweispurige Autobahn-Richtungsfahrbahnen, Stadtstraßen und zwei Kleeblattkreuze mit getrennten Ebenen und insgesamt 16 Ein- und Ausfahrtsrampen.
+- **M** öffnet den Straßenatlas: gesamte 100-km-Route, 35 Orte, Ortsverzeichnis auf vier Seiten, Zoom und Verschieben. Ein Ort im Verzeichnis wird als Navigationsziel gewählt. Mitfahrer können das gemeinsame Ziel setzen.
+- Das Cockpit-Navi zeigt auch Nebenstraßen, Rampen und Abbiegehinweise. Grün markiert die gewählte Route. **Z / X** schaltet den linken bzw. rechten Blinker an oder aus.
+- Neue Geräuschschichten für Reifen auf Asphalt und Schotter, Waldwind, Vögel, Nachtinsekten, entfernten Stadtverkehr, Tankpumpe, Shop-Lüftung, Türglocke, Blinker, Brückenfugen und Navigation. Der Reifenton verändert sich im Tunnel; Umgebungsgeräusche werden in der Kabine gedämpft.
+
+Alle im Raum benötigen **Version 1.2**. Räume der alten 0.2-Version sind nicht kompatibel. Die alten Downloads bleiben bei den früheren Releases verfügbar.
+
+![Gesamter Straßenatlas in Version 1.2](docs/v12-atlas.png)
 
 ## Starten
 
@@ -30,7 +42,8 @@ Den gesamten Download entpacken und `Fernweh.exe` starten. Der Datenordner und d
 | I / B / L | Motor / Innenlicht / Scheinwerfer bzw. Taschenlampe |
 | H | Verfügbaren Anhalter mitnehmen oder am Ziel absetzen |
 | T / V | Nächsten Halt markieren / hupen |
-| Tab | Navi vergrößern |
+| Tab / M | Kleines Navi vergrößern / Gesamtkarte öffnen |
+| Z / X | Blinker links / rechts umschalten |
 | N | Tageszeit-Vorschau wechseln |
 | R | Pannenhilfe: Pickup auf die Straße zurücksetzen |
 | Esc / F1 | Pause bzw. Dialog schließen / Raum- und Hauptmenü |
@@ -65,7 +78,7 @@ Die Regionennamen Hessen, Bayern und Thüringen sind Kapitel einer **fiktiven** 
 
 Das Spiel ist noch in Entwicklung. Beleuchtung, Fototexturen und detailliertere Figuren treffen auf weiterhin prozedurale Gebäude, Fahrzeuge und Landschaft. Es ist keine fertige fotorealistische Produktion. Multiplayer, Physik und Darstellung können noch Fehler zeigen.
 
-Fortschritt gehört zur aktuellen Sitzung; es gibt noch keinen vollständigen Spielstand zum späteren Fortsetzen. Zu Fuß bleibt man ungefähr 210 Meter beim Pickup. Busse sind Verkehr, kein nutzbarer Linienbetrieb. Gespräche sind unvertont, das Radio ist Dekoration und die Temperaturanzeige dient der Atmosphäre.
+Fortschritt gehört zur aktuellen Sitzung; es gibt noch keinen vollständigen Spielstand zum späteren Fortsetzen. Zu Fuß bleibt man ungefähr 210 Meter beim Pickup. Busse sind Verkehr, kein nutzbarer Linienbetrieb. Die zusätzlichen Stadtgebäude sind überwiegend Außenkulissen; begehbare Shops bleiben an Tankstellen. Der Streckenverkehr folgt weiterhin der Hauptstraße, die Seitenstraßen sind selbst befahrbar. Gespräche sind unvertont, das Radio ist Dekoration und die Temperaturanzeige dient der Atmosphäre.
 
 Bei einer Fehlermeldung helfen Ort bzw. Kilometer, Spielmodus und eine kurze Beschreibung. Die Unity-Protokolldatei dieses Builds liegt unter `%USERPROFILE%\AppData\LocalLow\Luis Studios\Fernweh\Player.log`.
 
