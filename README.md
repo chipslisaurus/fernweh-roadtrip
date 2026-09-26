@@ -1,20 +1,23 @@
-# Fernweh 1.2 · Roadtrip 100
+# Fernweh 1.4 · Roadtrip 100
 
 Ein früher Roadtrip-Prototyp für Windows, gebaut mit Unity. Eine prozedurale Strecke von 100 Kilometern, ein alter Pickup und bis zu drei Reisende: allein fahren oder gemeinsam an Tankstellen, Rastplätzen, Dörfern und Städten anhalten.
 
 [English](README.en.md) · [Asset-Credits](CREDITS.md)
 
-## Neu in 1.2
+## Neu in 1.4
 
-- Vier Städte: Auenried, Waldried, Steinrode und Buchenwinkel, mit Stadtstraßen, Rathausplatz, mehrstöckigen Fassaden, Parkplätzen und Fußgängern.
-- Landstraßen, zweispurige Autobahn-Richtungsfahrbahnen, Stadtstraßen und zwei Kleeblattkreuze mit getrennten Ebenen und insgesamt 16 Ein- und Ausfahrtsrampen.
-- **M** öffnet den Straßenatlas: gesamte 100-km-Route, 35 Orte, Ortsverzeichnis auf vier Seiten, Zoom und Verschieben. Ein Ort im Verzeichnis wird als Navigationsziel gewählt. Mitfahrer können das gemeinsame Ziel setzen.
-- Das Cockpit-Navi zeigt auch Nebenstraßen, Rampen und Abbiegehinweise. Grün markiert die gewählte Route. **Z / X** schaltet den linken bzw. rechten Blinker an oder aus.
-- Neue Geräuschschichten für Reifen auf Asphalt und Schotter, Waldwind, Vögel, Nachtinsekten, entfernten Stadtverkehr, Tankpumpe, Shop-Lüftung, Türglocke, Blinker, Brückenfugen und Navigation. Der Reifenton verändert sich im Tunnel; Umgebungsgeräusche werden in der Kabine gedämpft.
+- Runde Landstraßenkurven mit 28-Meter-Radien, zusammenhängenden Fahrbahnrändern und passenden Markierungen. Drei reguläre Nebenstrecken und drei ausgeschilderte Unfallumleitungen führen durch echte Abzweigungen.
+- Tankstellenschilder stehen neben der Fahrbahn. Leitplanken lassen Zufahrten frei. Das Navi folgt standardmäßig dem Fernziel und fordert nicht mehr automatisch zum Besuch jedes nächsten Halts auf.
+- Sieben Entdeckungsorte: **Alte Mühle, Bergwiesenhof, Falkenkamm-Aussicht, Alter Steinbruch, Seedorf am Ufer, Ruine Hohenwacht und Waldrast am Bach**. Einige Häuser sind betretbar; Aussichtsturm und Burg haben begehbare Treppen.
+- **J** öffnet das Reisebuch und setzt Erkundungsziele. Zu Fuß mit **K** zuerst die Infotafel lesen, dann die kleine Aktivität abschließen: Wasserrad starten, Kiste finden, Aussichtsstempel holen, angeln oder Kaffee machen. Sieben gemeinsame Reisestempel; jeder neue Stempel gibt allen im Raum 6,50 €. Beim Angeln auf den Biss warten und innerhalb von drei Sekunden nochmals K drücken.
+- Mehr Felder, Bauernhöfe, Felsformationen, Ufer und ländliche Gebäude. Die Karte enthält auf der Standardroute **42 benannte Stopps**; gesperrte Straßen sind rot markiert.
+- Die vier Städte, zwei Kleeblattkreuze, Tunnel, Tag-Nacht-Wechsel und Geräuschschichten aus Version 1.2 bleiben enthalten.
 
-Alle im Raum benötigen **Version 1.2**. Räume der alten 0.2-Version sind nicht kompatibel. Die alten Downloads bleiben bei den früheren Releases verfügbar.
+Alle im Raum benötigen **Version 1.4**. Ältere Versionen sind nicht kompatibel. Frühere Downloads bleiben in den alten Releases verfügbar.
 
-![Gesamter Straßenatlas in Version 1.2](docs/v12-atlas.png)
+Die Unfallstellen sind pro Fahrt fest gesetzte Sperren. Die Aktivitäten sind kleine Interaktionen, keine umfangreichen Missionen. Uferwasser ist bislang flache Kulisse, kein Schwimmsystem.
+
+![Runde Landstraßenkurven](docs/v14-curves-fixed.png)
 
 ## Starten
 
@@ -43,6 +46,7 @@ Den gesamten Download entpacken und `Fernweh.exe` starten. Der Datenordner und d
 | H | Verfügbaren Anhalter mitnehmen oder am Ziel absetzen |
 | T / V | Nächsten Halt markieren / hupen |
 | Tab / M | Kleines Navi vergrößern / Gesamtkarte öffnen |
+| J / K | Reisebuch und Erkundungsziel / zu Fuß an Infotafeln und Aktivitäten interagieren |
 | Z / X | Blinker links / rechts umschalten |
 | N | Tageszeit-Vorschau wechseln |
 | R | Pannenhilfe: Pickup auf die Straße zurücksetzen |
@@ -70,7 +74,7 @@ Nach Erfolg bekommt jeder eine Prämie. Derselbe Auftrag am selben Ort zahlt in 
 
 ## Was enthalten ist
 
-35 benannte Stopps, begehbare Tankstellenshops, Proviant, kurze Textgespräche, vier Reisenden-Modelle, Verkehr und Anhalter. Die Route führt durch Ebenen, Waldvorland und Gebirgspässe mit zwei befahrbaren Tunneln. Tag und Nacht verändern Licht, Straßenleben und Atmosphäre.
+42 benannte Stopps, begehbare Tankstellenshops, Proviant, kurze Textgespräche, vier Reisenden-Modelle, Verkehr und Anhalter. Die Route führt durch Ebenen, Waldvorland und Gebirgspässe mit zwei befahrbaren Tunneln. Tag und Nacht verändern Licht, Straßenleben und Atmosphäre.
 
 Die Regionennamen Hessen, Bayern und Thüringen sind Kapitel einer **fiktiven** Route. Dörfer und Straßen bilden keine echte Deutschlandkarte ab.
 
@@ -78,7 +82,7 @@ Die Regionennamen Hessen, Bayern und Thüringen sind Kapitel einer **fiktiven** 
 
 Das Spiel ist noch in Entwicklung. Beleuchtung, Fototexturen und detailliertere Figuren treffen auf weiterhin prozedurale Gebäude, Fahrzeuge und Landschaft. Es ist keine fertige fotorealistische Produktion. Multiplayer, Physik und Darstellung können noch Fehler zeigen.
 
-Fortschritt gehört zur aktuellen Sitzung; es gibt noch keinen vollständigen Spielstand zum späteren Fortsetzen. Zu Fuß bleibt man ungefähr 210 Meter beim Pickup. Busse sind Verkehr, kein nutzbarer Linienbetrieb. Die zusätzlichen Stadtgebäude sind überwiegend Außenkulissen; begehbare Shops bleiben an Tankstellen. Der Streckenverkehr folgt weiterhin der Hauptstraße, die Seitenstraßen sind selbst befahrbar. Gespräche sind unvertont, das Radio ist Dekoration und die Temperaturanzeige dient der Atmosphäre.
+Fortschritt gehört zur aktuellen Sitzung; es gibt noch keinen vollständigen Spielstand zum späteren Fortsetzen. Zu Fuß bleibt man ungefähr 210 Meter beim Pickup. Busse sind Verkehr, kein nutzbarer Linienbetrieb. Die zusätzlichen Stadtgebäude sind überwiegend Außenkulissen; Tankstellenshops und ausgewählte Erkundungsgebäude sind betretbar. Der Streckenverkehr nutzt die neuen Umleitungen; weitere Stadt- und Nebenstraßen sind selbst befahrbar. Gespräche sind unvertont, das Radio ist Dekoration und die Temperaturanzeige dient der Atmosphäre.
 
 Bei einer Fehlermeldung helfen Ort bzw. Kilometer, Spielmodus und eine kurze Beschreibung. Die Unity-Protokolldatei dieses Builds liegt unter `%USERPROFILE%\AppData\LocalLow\Luis Studios\Fernweh\Player.log`.
 

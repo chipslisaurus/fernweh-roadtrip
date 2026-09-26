@@ -1,10 +1,12 @@
-# Fernweh 1.2 · Roadtrip 100
+# Fernweh 1.4 · Roadtrip 100
 
-Version 1.2 adds four towns expanded into cities, local streets, dual carriageway motorway sections and two grade-separated cloverleaf interchanges. Press **M** for the 100 km road atlas and its 35-place directory; select a place to set a shared navigation destination. Scroll to zoom and drag to pan. **Z / X** toggles left / right indicators.
+Version 1.4 adds rounded country-road bends with 28-metre radii, three mandatory side routes and three signed diversions around road closures. Fuel signs are moved clear of the roadway; barriers leave access gaps. Navigation defaults to the final destination instead of requesting a turn into every next stop.
 
-New contextual sounds cover road tires, gravel, leaves, birds, insects, distant city traffic, refueling, shop ventilation, entry bell, indicator relay, bridge joints and navigation. Tire reverb changes in tunnels and exterior sounds are quieter in the cabin.
+Seven discovery locations add short on-foot activities: an old mill, farm, lookout tower, quarry, lakeside village, castle ruin and creekside picnic camp. **J** opens the shared journal and selects destinations; **K** reads the information board and interacts at the activity marker. Each new shared stamp gives every traveller €6.50. At the fishing dock, cast with K, wait for the bite, then press K within three seconds. Some buildings and both elevated viewpoints are accessible.
 
-All players must use 1.2; older 0.2 rooms are incompatible. Most new city buildings are exterior scenery. Traffic stays on the main route; players can drive the connected side streets. This remains an early procedural prototype.
+Fields, farms, rocks and waterside scenery extend the surroundings. The standard seed has 42 named stops. Closures appear red in the atlas. All players need **1.4**; previous versions are incompatible. The four cities, two cloverleaf interchanges and sound layers from 1.2 remain.
+
+These are fixed road incidents and simple activities, not a dynamic mission simulation. Water is shallow scenery without swimming. Progress lasts for the current trip.
 
 # Fernweh · Landstraße 100
 
@@ -38,7 +40,9 @@ Extract the entire download and launch `Fernweh.exe`. Keep the data folder and b
 | I / B / L | Engine / cabin light / headlights or flashlight |
 | H | Pick up an available hitchhiker or drop them at their destination |
 | T / V | Mark the next stop / sound the horn |
-| Tab | Expand the navigation map |
+| Tab / M | Expand the navigation map / open the full atlas |
+| J / K | Shared travel journal / interact at discovery boards and activities |
+| Z / X | Left / right indicator |
 | N | Cycle through time-of-day previews |
 | R | Roadside recovery: return the pickup to the road |
 | Esc / F1 | Pause or close a dialogue / room and main menu |
@@ -65,7 +69,7 @@ Everyone receives a reward on completion. Repeating the same contract at the sam
 
 ## Current content
 
-35 named stops, walk-in fuel-station shops, provisions, short text conversations, four traveller models, traffic and hitchhikers. Plains, wooded foothills and mountain passes connect along the route, including two drivable tunnels. Lighting and roadside activity change through the day and night.
+42 named stops, walk-in fuel-station shops, provisions, short text conversations, four traveller models, traffic and hitchhikers. Plains, wooded foothills and mountain passes connect along the route, including two drivable tunnels. Lighting and roadside activity change through the day and night.
 
 Hessen, Bayern and Thüringen label chapters of a **fictional** route. The villages and road layout do not recreate a real map of Germany.
 
