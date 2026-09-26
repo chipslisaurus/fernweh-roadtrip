@@ -4,6 +4,12 @@ Ein früher Roadtrip-Prototyp für Windows von Luis Studios, gebaut mit Unity. M
 
 [English](README.en.md) · [Asset-Credits](CREDITS.md) · [Downloads](https://github.com/chipslisaurus/fernweh-roadtrip/releases)
 
+**[Für Windows herunterladen: Fernweh-Setup-v1.5.0.exe](https://github.com/chipslisaurus/fernweh-roadtrip/releases/download/v1.5.0/Fernweh-Setup-v1.5.0.exe)**
+
+EXE öffnen, installieren, Fernweh starten. Kein manuelles Entpacken und kein Administratorpasswort erforderlich. Das Setup enthält das vollständige Spiel; die Spielversion ist identisch mit dem ZIP-Download.
+
+[ZIP-Version ohne Installation](https://github.com/chipslisaurus/fernweh-roadtrip/releases/download/v1.5.0/Fernweh-Windows-v1.5.0.zip). Dateien mit `.sha256` sind nur Prüfsummen, kein Spiel.
+
 ## Somewhere in Europe
 
 Im Hauptmenü **Somewhere in Europe** wählen, einen Raum erstellen und den Code an Freunde schicken. Jeder erhält einen eigenen Pickup und startet an einem anderen, unbekannten Punkt derselben Strecke. Bis zu drei Spieler; ab zwei Spielern kann die Runde gewonnen werden.
@@ -30,7 +36,7 @@ Freie Etappen reichen von etwa 3,8 bis 157 Spielkilometern. Somewhere in Europe 
 
 ## Starten und Freunde einladen
 
-Den vollständigen ZIP-Download entpacken und **Fernweh.exe** starten. Den Datenordner und die Unity-Laufzeitdateien daneben lassen. Namen und Figur wählen; dann allein aufbrechen, einen Raum erstellen oder einen Raumcode eingeben. Der Internetmodus nutzt Unity Relay; LAN Host und LAN Beitreten funktionieren im lokalen Netzwerk.
+Das **EXE-Setup** oben herunterladen, öffnen und installieren. Danach Fernweh über das Startmenü oder die Desktop-Verknüpfung starten. Alternativ den vollständigen ZIP-Download entpacken und **Fernweh.exe** starten; dabei den Datenordner und die Unity-Laufzeitdateien daneben lassen. Namen und Figur wählen; dann allein aufbrechen, einen Raum erstellen oder einen Raumcode eingeben. Der Internetmodus nutzt Unity Relay; LAN Host und LAN Beitreten funktionieren im lokalen Netzwerk.
 
 Der Gastgeber muss verbunden bleiben. Hostwechsel, sitzungsübergreifende Multiplayer-Spielstände und eingebaute Sprachübertragung sind nicht enthalten. Es bleibt ein Prototyp mit vereinfachter Umgebung.
 

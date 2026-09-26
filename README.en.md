@@ -2,6 +2,10 @@
 
 A Windows roadtrip prototype by Luis Studios, made with Unity. Drive an old pickup, explore, and shop alone or with up to three players. [German guide and controls](README.md).
 
+**[Download for Windows: Fernweh-Setup-v1.5.0.exe](https://github.com/chipslisaurus/fernweh-roadtrip/releases/download/v1.5.0/Fernweh-Setup-v1.5.0.exe)**
+
+Open the EXE, install, and play. The full game is included, with no manual extraction or administrator password required. It is the same game version as the [portable ZIP](https://github.com/chipslisaurus/fernweh-roadtrip/releases/download/v1.5.0/Fernweh-Windows-v1.5.0.zip). A `.sha256` file is only a checksum, not the game.
+
 ## Somewhere in Europe
 
 Select the mode, host a room, and share its code. Each player starts at an unknown, separated location with their **own pickup**. No navigation, maps, location labels, or teammate markers. A compass shows the direction you are looking. Describe road signs and landmarks using your own voice chat; the game does not include voice communication.
@@ -24,6 +28,6 @@ New two-way signs, water towers, silos, and radio masts provide orientation. Win
 
 ## Download
 
-Extract the entire ZIP and run **Fernweh.exe**. Keep its data directory and runtime files together. Pick a name and character, then host, enter a room code, or drive alone. This is a prototype with simplified scenery and mechanics.
+Install the EXE setup above and launch Fernweh from the Start menu or desktop shortcut. Alternatively, extract the entire ZIP and run **Fernweh.exe**, keeping its data directory and runtime files together. Pick a name and character, then host, enter a room code, or drive alone. This is a prototype with simplified scenery and mechanics.
 
 Map data © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/). Boundaries: [Natural Earth](https://www.naturalearthdata.com/about/terms-of-use/), public domain. The derived database is included as [data/Fernweh-Europe-ODbL.json](data/Fernweh-Europe-ODbL.json). Its license does not license the entire game. Other sources: [CREDITS.md](CREDITS.md), [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
