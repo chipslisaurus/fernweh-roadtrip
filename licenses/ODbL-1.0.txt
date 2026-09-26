@@ -1,0 +1,10 @@
+Open Database License (ODbL) 1.0
+
+The Fernweh Europe derived database is made available under the ODbL 1.0.
+The full license is available at:
+https://opendatacommons.org/licenses/odbl/1-0/
+https://opendatacommons.org/licenses/odbl/odbl-10.txt
+
+Source: OpenStreetMap contributors, https://www.openstreetmap.org/copyright
+Data: ../data/Fernweh-Europe-ODbL.json
+This notice provides the license URI under section 4.2(b).

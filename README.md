@@ -1,89 +1,59 @@
-# Fernweh 1.4 · Roadtrip 100
+# Fernweh 1.5 · Europa & Somewhere in Europe
 
-Ein früher Roadtrip-Prototyp für Windows, gebaut mit Unity. Eine prozedurale Strecke von 100 Kilometern, ein alter Pickup und bis zu drei Reisende: allein fahren oder gemeinsam an Tankstellen, Rastplätzen, Dörfern und Städten anhalten.
+Ein früher Roadtrip-Prototyp für Windows von Luis Studios, gebaut mit Unity. Mit einem alten Pickup durch verkürzte europäische Landschaften fahren, aussteigen, einkaufen und Orte entdecken. Allein oder mit bis zu drei Spielern.
 
-[English](README.en.md) · [Asset-Credits](CREDITS.md)
+[English](README.en.md) · [Asset-Credits](CREDITS.md) · [Downloads](https://github.com/chipslisaurus/fernweh-roadtrip/releases)
 
-## Neu in 1.4
+## Somewhere in Europe
 
-- Runde Landstraßenkurven mit 28-Meter-Radien, zusammenhängenden Fahrbahnrändern und passenden Markierungen. Drei reguläre Nebenstrecken und drei ausgeschilderte Unfallumleitungen führen durch echte Abzweigungen.
-- Tankstellenschilder stehen neben der Fahrbahn. Leitplanken lassen Zufahrten frei. Das Navi folgt standardmäßig dem Fernziel und fordert nicht mehr automatisch zum Besuch jedes nächsten Halts auf.
-- Sieben Entdeckungsorte: **Alte Mühle, Bergwiesenhof, Falkenkamm-Aussicht, Alter Steinbruch, Seedorf am Ufer, Ruine Hohenwacht und Waldrast am Bach**. Einige Häuser sind betretbar; Aussichtsturm und Burg haben begehbare Treppen.
-- **J** öffnet das Reisebuch und setzt Erkundungsziele. Zu Fuß mit **K** zuerst die Infotafel lesen, dann die kleine Aktivität abschließen: Wasserrad starten, Kiste finden, Aussichtsstempel holen, angeln oder Kaffee machen. Sieben gemeinsame Reisestempel; jeder neue Stempel gibt allen im Raum 6,50 €. Beim Angeln auf den Biss warten und innerhalb von drei Sekunden nochmals K drücken.
-- Mehr Felder, Bauernhöfe, Felsformationen, Ufer und ländliche Gebäude. Die Karte enthält auf der Standardroute **42 benannte Stopps**; gesperrte Straßen sind rot markiert.
-- Die vier Städte, zwei Kleeblattkreuze, Tunnel, Tag-Nacht-Wechsel und Geräuschschichten aus Version 1.2 bleiben enthalten.
+Im Hauptmenü **Somewhere in Europe** wählen, einen Raum erstellen und den Code an Freunde schicken. Jeder erhält einen eigenen Pickup und startet an einem anderen, unbekannten Punkt derselben Strecke. Bis zu drei Spieler; ab zwei Spielern kann die Runde gewonnen werden.
 
-Alle im Raum benötigen **Version 1.4**. Ältere Versionen sind nicht kompatibel. Frühere Downloads bleiben in den alten Releases verfügbar.
+Es gibt **kein Navi, keine Karte, keine Ortsanzeige und keine Freundesmarker**. Der Kompass zeigt die Blickrichtung. Nutzt Schilder, Straßennummern und auffällige Gebäude, beschreibt euch eure Umgebung und fahrt zueinander. Für Gespräche einen eigenen Sprachchat verwenden; Fernweh enthält keinen Sprachchat.
 
-Die Unfallstellen sind pro Fahrt fest gesetzte Sperren. Die Aktivitäten sind kleine Interaktionen, keine umfangreichen Missionen. Uferwasser ist bislang flache Kulisse, kein Schwimmsystem.
+**Rundenziel:** Alle verbundenen Spieler müssen ihre Pickups mindestens vier Sekunden innerhalb von 35 Metern zusammen abstellen. Danach könnt ihr gemeinsam weiterfahren. Unter **F1 → Neue Suchrunde** kann der Gastgeber neue Startpunkte laden, sobald alle wieder eingestiegen sind und stehen.
 
-![Runde Landstraßenkurven](docs/v14-curves-fixed.png)
+**Gemeinsam im Pickup** bleibt verfügbar: Gastgeber fährt, zwei Freunde sitzen auf der Beifahrerbank und können gemeinsam aussteigen. Alle benötigen dieselbe Version 1.5.
 
-## Starten
+## Europa und Straßen
 
-Den gesamten Download entpacken und `Fernweh.exe` starten. Der Datenordner und die mitgelieferten Unity-Dateien müssen neben der Anwendung bleiben. Im Menü Namen und Figur wählen, dann **Allein aufbrechen** oder einen Raum erstellen.
+- **80 Orte und 101 Verbindungen** über Europa, einschließlich Inseln, Kleinstaaten und ausgewählter transkontinentaler Gebiete. Enthalten sind 51 Länder-/Gebietscodes; das ist keine politische Definition Europas.
+- **M** öffnet außerhalb des Suchmodus die Europakarte. Start und Ziel anklicken oder durchschalten, zoomen, die Karte ziehen oder ein zufälliges Ziel wählen. Neue Etappen werden im Stand geladen.
+- Straßenentfernungen stammen aus OpenStreetMap/OSRM. Rückrichtungen verwenden näherungsweise denselben Wert. Fahrzeuge bleiben lebensgroß, Zwischenstrecken werden stark verkürzt und enge Radien geglättet.
+- Überlandkurven nutzen die Richtungswechsel der importierten Routen. Die Straße ist eine **generalisierte, komprimierte Interpretation**, keine geografisch maßstabsgetreue Kopie. Gelände und Gebäude sind größtenteils prozedural.
+- **Frankfurt-Nordend und Luxemburg-Gare** nutzen importierte Straßen- und Gebäudegrundrisse. Fassaden und viele Höhen sind vereinfacht; andere Stadtstraßen entstehen prozedural.
+- Gestrichelte Inselverbindungen sind **fiktive Fahrzeugtransfers**, keine gemessenen Straßen. Am Terminal anhalten und **E** drücken. Entfernungen sind grobe Luftlinienwerte. Es gibt keine Fährsimulation; diese Verbindungen bilden keine realen Verkehrsangebote ab.
+- Neue Gegenrichtungsbeschilderung, Autobahntafeln, Wassertürme, Silos und Funkmasten ergänzen Felder, Höfe und Erkundungsorte. Der überstrahlende Reflex der Windschutzscheibe wurde entfernt.
 
-## Zusammen spielen
+Freie Etappen reichen von etwa 3,8 bis 157 Spielkilometern. Somewhere in Europe wählt normalerweise kürzere Strecken ohne Transfers. Die Karte beschreibt keine aktuell passierbaren Grenzen und ist keine Reiseempfehlung.
 
-- **Internet:** Der Gastgeber wählt **Raum erstellen** und teilt den Raumcode. Freunde geben ihn bei **Beitreten** ein. Die Verbindung verwendet Unity Relay; dieser experimentelle Modus benötigt Internet und einen verfügbaren Relay-Dienst.
-- **LAN:** Im selben lokalen Netzwerk wählt der Gastgeber **LAN Host**. Freunde tragen seine lokale IP-Adresse ein und wählen **LAN Beitreten**. Standardport: UDP 7777. `127.0.0.1` funktioniert nur auf demselben Computer.
-- Ein Raum hat **drei Plätze: ein Gastgeber am Steuer und zwei Mitfahrer**. Alle können bei Stillstand aussteigen und die Umgebung erkunden.
-- **F1** öffnet das Raummenü. Verlässt der Gastgeber den Raum, endet die gemeinsame Sitzung. Es gibt noch keinen Gastgeberwechsel und keinen eingebauten Sprachchat.
+![Europakarte](docs/v15-europe.png)
+
+## Starten und Freunde einladen
+
+Den vollständigen ZIP-Download entpacken und **Fernweh.exe** starten. Den Datenordner und die Unity-Laufzeitdateien daneben lassen. Namen und Figur wählen; dann allein aufbrechen, einen Raum erstellen oder einen Raumcode eingeben. Der Internetmodus nutzt Unity Relay; LAN Host und LAN Beitreten funktionieren im lokalen Netzwerk.
+
+Der Gastgeber muss verbunden bleiben. Hostwechsel, sitzungsübergreifende Multiplayer-Spielstände und eingebaute Sprachübertragung sind nicht enthalten. Es bleibt ein Prototyp mit vereinfachter Umgebung.
 
 ## Steuerung
 
 | Taste | Aktion |
 |---|---|
-| WASD / Pfeile | Fahren; S bremst und fährt anschließend rückwärts |
-| Maus / C | Umsehen / Fahrerblick zentrieren |
-| Leertaste | Handbremse; zu Fuß springen |
-| F | Bei Stillstand aussteigen / am Pickup einsteigen |
-| WASD / Umschalt | Zu Fuß gehen / rennen |
-| E | Gespräch oder Shop; an der Zapfsäule zum Tanken halten |
-| Q / G | Gegenstand nehmen oder benutzen / ablegen |
-| P | Rucksack öffnen |
-| I / B / L | Motor / Innenlicht / Scheinwerfer bzw. Taschenlampe |
-| H | Verfügbaren Anhalter mitnehmen oder am Ziel absetzen |
-| T / V | Nächsten Halt markieren / hupen |
-| Tab / M | Kleines Navi vergrößern / Gesamtkarte öffnen |
-| J / K | Reisebuch und Erkundungsziel / zu Fuß an Infotafeln und Aktivitäten interagieren |
-| Z / X | Blinker links / rechts umschalten |
-| N | Tageszeit-Vorschau wechseln |
-| R | Pannenhilfe: Pickup auf die Straße zurücksetzen |
-| Esc / F1 | Pause bzw. Dialog schließen / Raum- und Hauptmenü |
-| F8 | Als Gastgeber den Crew-Auftrag ohne Prämie überspringen |
+| WASD, Maus | Fahren/laufen, umsehen |
+| F | Im Stand ein-/aussteigen |
+| Leertaste | Handbremse / springen |
+| E | Tanken, Gespräch, Shop, Fahrzeugtransfer |
+| R | Pannenhilfe |
+| I, L, B | Motor, Außenlicht/Taschenlampe, Innenlicht |
+| Z / X, V | Blinker, Hupe |
+| Q / G | Gegenstände; Hinweise im Spiel beachten |
+| M, Tab, J | Europakarte, Navi, Reisebuch; im Suchmodus ausgeschaltet |
+| K | Mit Entdeckungsorten interagieren |
+| F1, Esc | Hauptmenü/Raum, Pause |
 
-## Proviant gemeinsam benutzen
+Tankstellen und Rastplätze enthalten zeitabhängige Besucher; Shops bieten physische Gegenstände. Verfügbare Entdeckungsorte hängen von der gewählten Etappe ab. Gemeinsam-im-Pickup enthält zusätzliche Crew-Aufträge.
 
-Im geöffneten Shop an die Kasse gehen, **E** drücken und kaufen. Jeder Reisende startet mit eigenem Bargeld von 75 €. Der gekaufte Gegenstand erscheint an der Ausgabe. Hinsehen und **Q** einmal drücken nimmt ihn in die Hand; ein weiteres **Q** benutzt oder verbraucht ihn. **G** legt ihn ab. Ein anderer Reisender kann einen abgelegten Gegenstand aufnehmen. Man hält jeweils einen Gegenstand; insgesamt können 24 unbenutzte Gegenstände in der Welt liegen. Mit **P** öffnet man den Rucksack, für Gegenstände in der Welt muss man trotzdem in Reichweite sein. Der Fahrer muss zum Hantieren anhalten, Mitfahrer können auch unterwegs etwas benutzen.
+## Kartendaten
 
-## Sechs Crew-Aufträge
+Kartendaten © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/), über OSRM abgerufen am 26.09.2026. Länderumrisse: [Natural Earth](https://www.naturalearthdata.com/about/terms-of-use/), public domain.
 
-Die gemeinsamen Aufgaben starten automatisch mit mindestens zwei Personen im Raum. Fortschritt und Prämien werden gemeinsam abgeglichen; der Gastgeber kann mit **F8** ohne Belohnung weiterschalten.
-
-| Auftrag | Was ihr macht |
-|---|---|
-| Kaffeepause zu zweit | Pickup abstellen. Zwei verschiedene Reisende halten gleichzeitig je einen gekauften Kaffee zwei Sekunden lang. Q zum Aufnehmen drücken, noch nicht zum Trinken. |
-| Alle mal die Beine vertreten | Zum angezeigten Halt fahren; alle steigen aus und bleiben dort gemeinsam drei Sekunden. |
-| Der Beifahrer weiß den Weg | Ein Mitfahrer markiert mit T den nächsten Halt. Gemeinsam hinfahren und dort zwei Sekunden anhalten. |
-| Das schlechteste Hupkonzert | Pickup abstellen. Alle drücken innerhalb derselben acht Sekunden einmal V; draußen höchstens 18 Meter vom Auto entfernt bleiben. |
-| Der rollende Kiosk | Drei verschiedene Sorten aus Kaffee, Wasser, Brot und Nüssen in Händen oder auf der Ladefläche mitnehmen. Mehr als 100 Meter zum angezeigten nächsten Halt fahren und dort parken. |
-| Fahrer hat Pause | Ein Mitfahrer steigt an der Tankstelle aus und hält E zum Tanken, bis insgesamt fünf Liter eingefüllt sind. Bei zu vollem Tank wird die Aufgabe übersprungen. |
-
-Nach Erfolg bekommt jeder eine Prämie. Derselbe Auftrag am selben Ort zahlt in einem Raum nicht mehrfach.
-
-## Was enthalten ist
-
-42 benannte Stopps, begehbare Tankstellenshops, Proviant, kurze Textgespräche, vier Reisenden-Modelle, Verkehr und Anhalter. Die Route führt durch Ebenen, Waldvorland und Gebirgspässe mit zwei befahrbaren Tunneln. Tag und Nacht verändern Licht, Straßenleben und Atmosphäre.
-
-Die Regionennamen Hessen, Bayern und Thüringen sind Kapitel einer **fiktiven** Route. Dörfer und Straßen bilden keine echte Deutschlandkarte ab.
-
-## Stand des Prototyps
-
-Das Spiel ist noch in Entwicklung. Beleuchtung, Fototexturen und detailliertere Figuren treffen auf weiterhin prozedurale Gebäude, Fahrzeuge und Landschaft. Es ist keine fertige fotorealistische Produktion. Multiplayer, Physik und Darstellung können noch Fehler zeigen.
-
-Fortschritt gehört zur aktuellen Sitzung; es gibt noch keinen vollständigen Spielstand zum späteren Fortsetzen. Zu Fuß bleibt man ungefähr 210 Meter beim Pickup. Busse sind Verkehr, kein nutzbarer Linienbetrieb. Die zusätzlichen Stadtgebäude sind überwiegend Außenkulissen; Tankstellenshops und ausgewählte Erkundungsgebäude sind betretbar. Der Streckenverkehr nutzt die neuen Umleitungen; weitere Stadt- und Nebenstraßen sind selbst befahrbar. Gespräche sind unvertont, das Radio ist Dekoration und die Temperaturanzeige dient der Atmosphäre.
-
-Bei einer Fehlermeldung helfen Ort bzw. Kilometer, Spielmodus und eine kurze Beschreibung. Die Unity-Protokolldatei dieses Builds liegt unter `%USERPROFILE%\AppData\LocalLow\Luis Studios\Fernweh\Player.log`.
-
-Quellen und mitgelieferte Drittanbieter-Hinweise stehen in [CREDITS.md](CREDITS.md) und [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
+Die verwendete abgeleitete Datenbank liegt maschinenlesbar unter [data/Fernweh-Europe-ODbL.json](data/Fernweh-Europe-ODbL.json) im Repository und Download. Die Datenlizenz gilt nicht für den vollständigen Spielcode. Weitere Quellen: [CREDITS.md](CREDITS.md), [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
